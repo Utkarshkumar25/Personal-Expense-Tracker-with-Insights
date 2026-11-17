@@ -1,0 +1,34 @@
+# ==========================================
+# Personal Expense Tracker - .gitignore
+# ==========================================
+
+# Personal Financial Data (Never commit real bank/UPI statements!)
+data/my_expenses.csv
+data/personal_*.csv
+data/real_*.csv
+data/*_private.csv
+*.xlsx
+*.xls
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,3 @@
+# Core data analysis and visualization dependencies
+pandas>=2.0.0
+matplotlib>=3.7.0
